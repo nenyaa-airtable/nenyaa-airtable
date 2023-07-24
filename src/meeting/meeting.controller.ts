@@ -1,7 +1,7 @@
 import { Controller, Get, Query } from '@nestjs/common';
 import { MeetingService } from './meeting.service';
 
-@Controller('meetings')
+@Controller()
 export class MeetingController {
   constructor(private readonly groupService: MeetingService) {}
 
